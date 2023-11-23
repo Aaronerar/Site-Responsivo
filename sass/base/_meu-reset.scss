@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: "Source Sans Pro";
+}
+
+@font-face {
+    font-family: "source sans pro";
+    src: url("../fonts/source-sans-pro/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "source sans pro";
+    src: url("../fonts/source-sans-pro/SourceSansPro-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "source sans pro";
+    src: url("../fonts/source-sans-pro/SourceSansPro-BoldIt.otf");
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Site Responsivo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header class="cabecalho">
+            <div class="container">
+                <h1 class="logo">Site Responsivo</h1>
+                <nav class="menu-principal menu-principal--fechado">
+                    <button class="menu-principal__btn">Abrir/fechar menu</button>
+                    <ul class="menu-principal__lista">
+                        <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a></li>
+                        <li><a class="menu-principal__item" href="sobre-nos.html">Sobre Nós</a></li>
+                        <li><a class="menu-principal__item" href="portfolio.html">Portfólio</a></li>
+                        <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!-- Fim Container Cabeçalho -->
+        </header>
+        <main>
+            <header class="cabecalho-home">
+                <h2 class="cabecalho-home__titulo">Texto grande bem aqui!</h2>
+                <p class="cabecalho-home__subtitulo">Texto menorzinho aqui</p>
+                <a class="cabecalho-home__role" href="#servicos">role para ver mais</a>
+            </header>
+            <section id="servicos" class="servicos"><!-- Seção serviços -->
+                <div class="container"><!-- Começo Container -->
+                    <h2 class="home__titulo">O que fazemos</h2>
+                    <section class="servicos__item">
+                        <img src="imagens/icone-desenvolvimento-web.png" alt="Ícone planeta terra">
+                        <h3>Desenvolvimento web</h3>
+                        <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cum unde id voluptate ex illum possimus, architecto neque sunt inventore sit, nobis omnis natus ea laborum in odio, quod voluptatem?</p>
+                    </section>
+                    <section class="servicos__item">
+                        <img src="imagens/icone-carrinho-compras.png" alt="Ícone carrinho de compras">
+                        <h3>E-commerce</h3>
+                        <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nemo obcaecati quis odit fugiat enim nostrum consequatur, labore aliquid minus ad? Esse rerum voluptatem ex, perspiciatis quidem rem commodi error?</p>
+                    </section>
+                    <section class="servicos__item">
+                        <img src="imagens/icone-cafe.png" alt="Ícone xícara de café">
+                        <h3>Café</h3>
+                        <p class="servicos__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt neque nesciunt quis blanditiis necessitatibus sit repudiandae modi laborum maiores ab, vel explicabo nihil possimus reprehenderit odio fuga eos! Asperiores, expedita.</p>
+                    </section>
+                </div><!-- Fim Container -->
+            </section><!-- Fim seção serviços -->
+            <section class="depoimentos"><!-- Seção depoimentos -->
+                <div class="container">
+                    <h2 class="home__titulo home__titulo--branco">O que falam de nós</h2>
+                    <section class="depoimentos__item">
+                        <img class="depoimentos__img" src="imagens/depoimentos/pessoa-1.jpg" alt="Foto da pessoa X">
+                        <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab provident repellendus enim eos odio est blanditiis iste! Maiores sit cumque odio perspiciatis dolorum saepe quis corporis ex, modi quasi.</p>
+                        <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
+                    </section>
+                </div>
+            </section><!-- Fim seção depoimentos -->
+        </main>
+        <footer class="rodape">
+            <div class="rodape__linha-1">
+                <div class="container">
+                    <div class="rodape__coluna">
+                        <a href="index.html" class="logo logo--branco">Site Responsívo</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti exercitationem, quas fuga voluptates perspiciatis ullam soluta est aut aspernatur minus tenetur accusantium eligendi, voluptas dignissimos vitae, placeat nihil eveniet provident!</p>                   
+                    </div>
+                    <div class="rodape__coluna">
+                        <h2 class="rodape__titulo">Social</h2>
+                        <ul class="rodape__lista-links">
+                            <li><a class="rodape__lista-links__item" href="https://twitter.com" target="_blank">Twitter</a></li>
+                            <li><a class="rodape__lista-links__item" href="https://facebook.com" target="_blank">Facebook</a></li>
+                            <li><a class="rodape__lista-links__item" href="https://instagram.com" target="_blank">Instagram</a></li>
+                            <li><a class="rodape__lista-links__item" href="https://www.youtube.com/watch?v=CM_A4f9qqzo" target="_blank">Youtube</a></li>
+                        </ul>
+                    </div>
+                    <div class="rodape__coluna">
+                        <h2 class="rodape__titulo">Links</h2>
+                        <ul class="rodape__lista-links">
+                            <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+                            <li><a class="rodape__lista-links__item" href="sobre-nos.html">Sobre Nós</a></li>
+                            <li><a class="rodape__lista-links__item" href="portfolio.html">Portfólio</a></li>
+                            <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div><!-- Fim Container Rodapé -->
+            </div>
+            <div class="rodape__linha-2">
+                © 2017 - Todos os direitos reservados - Aaron Nader
+            </div>
+        </footer>
+</body>
+</html>
